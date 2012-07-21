@@ -1,0 +1,1 @@
+This project is small example with Nancy, where I developed a Rest API to shorten URLs and this hosted in APS.NET.
