@@ -26,11 +26,6 @@ namespace UrlShortener.Web.Model
             CreatedAt = DateTime.Now;
         }
 
-        public bool IsTransient()
-        {
-            return Id == Guid.Empty;
-        }
-
         public override int GetHashCode()
         {
             return Short.GetHashCode();
