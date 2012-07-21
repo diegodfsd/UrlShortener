@@ -30,7 +30,7 @@ namespace UrlShortener.Web.Modules
             return Response.AsJson<UrlResource>(urlFound.Map<UrlResource>());
         }
 
-        private Response HandleCreate(dynamic parameters)
+        private Response HandlerCreate(dynamic parameters)
         {
             if (!Request.Form.url.HasValue)
                 return Response.BadRequest();
